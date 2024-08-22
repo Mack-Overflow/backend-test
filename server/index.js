@@ -159,7 +159,7 @@ async function main() {
       const result = await connection.query('UPDATE task_statuses SET task_complete = ? WHERE task_id = ?', [task_complete, task_id]);
       connection.release();
 
-      res.json(result.affectedRows);
+      res.json({ message: "Task status updated for task "+task_id });
     } catch (err) {
       logErr(err);
       res.status(500).json({ error: "Failed to update task status" });

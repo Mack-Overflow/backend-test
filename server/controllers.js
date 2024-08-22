@@ -1,7 +1,3 @@
-export async function getTasks() {
-
-}
-
 export async function getAllWorkers(db) {
     let connection;
     try {

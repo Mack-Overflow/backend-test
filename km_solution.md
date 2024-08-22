@@ -39,6 +39,7 @@
         - /costs/locations?worker_id=2&location_id=1
             - Location 1 is Kitchen, total_cost is 12.50, as this is cost of Drew Brees working in kitchen @ $25/hr for 0.5 hours
 
+- Create logged_time entries, set the task status, and create other workers/locations/tasks to test additionally
         
 
 ## Json Objects for Pie Graphs
